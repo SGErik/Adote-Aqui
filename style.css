@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'LifeofPets'; 
+    src: url(../../Fonts/Life\ of\ Pets.otf)
+
+}
+
+@font-face {
+    font-family: 'PetshopFont';
+    src: url(../../Fonts/Really\ Petshop.ttf)
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    
+}
+.part1 {
+    display: flex;
+    background-color: rgb(156, 156, 156);
+    width: 1000px;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+
+    
+}
+.adot1 {
+    color: black;
+    font-size: 30px;
+    font-family: 'LifeofPets';
+    margin-left: 5px;
+}
+.part2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    width: 500px;
+    height: 70px;
+    font-size: 25px;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+@media screen and (max-width: 700px) {
+    .part1 {
+        display: none;
+    }
+.part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    }
+}
+
+.adot1:hover {
+    font-size: 40px;
+}
+a:hover {
+    color: chartreuse;
+}
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/02/98/20/18/360_F_298201895_5bPjYW2qPWJ52Wg40H80d8hCAHsPIfpE.jpg);
+    background-size: cover; 
+    background-repeat: repeat;
+}
+.page {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+       
+    
+}
+
+.patinha {
+    margin-top: 30px;
+    transform: rotate(340deg);
+    margin-left: 90px;
+}
+.inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+    width: 500px;
+    height: 100%;
+}
+
+.text1 {
+    font-size: 60px;
+    font-family: 'PetshopFont';
+    color:tomato
+}
+
+.border1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid;
+    overflow: hidden;
+    position: relative;
+    margin-left: 130px;
+    
+
+}
+.cachorrinho1 {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 100%;
+}
