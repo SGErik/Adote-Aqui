@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'LifeofPets'; 
-    src: url(../../Fonts/Life\ of\ Pets.otf)
+    src: url(./Life\ of\ Pets.otf)
 
 }
 
 @font-face {
     font-family: 'PetshopFont';
-    src: url(../../Fonts/Really\ Petshop.ttf)
+    src: url(./Really\ Petshop.ttf)
 }
 #header {
     display: flex;
